@@ -1,0 +1,10 @@
+Free logo site: 1. https://www.freelogodesign.org/ , 2. https://turbologo.com/logo-ideas
+Free Image site: https://www.pexels.com/
+Free Icon site: 1. https://heroicons.com/ , 2. https://ionic.io/ionicons
+
+Font family: font-family: 'Open Sans', sans-serif; <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap"
+      rel="stylesheet"
+    />

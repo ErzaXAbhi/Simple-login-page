@@ -1,0 +1,127 @@
+body {
+  background-image: url(../Images/bg10.jpg);
+  background-size: cover;
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  width: 1000px;
+  height: 500px;
+  margin: 0 auto;
+  margin-top: 100px;
+  /* background: #fff; */
+  border: 3px solid #f1515e;
+}
+
+.main .left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  /* border: 1px solid red; */
+  position: relative;
+  background: #f1515e;
+}
+
+.main .left h1 {
+  margin-top: 100px;
+}
+
+.left form input {
+  text-align: center;
+  width: 60%;
+  height: 35px;
+  margin-bottom: 10px;
+  border: none;
+  background: #f8f8f8;
+  border-radius: 25px;
+}
+
+.left form input :focus {
+  outline: none;
+}
+
+.left form input[type="submit"] {
+  background: #0974f1;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.left form input[type="submit"]:hover {
+  background: #000;
+}
+
+.left p.forget:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.left p.or {
+  font-size: 15px;
+  width: 40px;
+  height: 30px;
+  padding-top: 10px;
+  background: #f1515e;
+  border-radius: 50%;
+  position: absolute;
+  left: 95%;
+  font-weight: solid;
+}
+
+.left .forget {
+  color: #000;
+}
+
+.main .right {
+  text-align: center;
+}
+
+.main .right h1 {
+  margin-top: 100px;
+}
+
+.right .social {
+  margin-top: 40px;
+}
+
+.social button {
+  border: none;
+  padding: 15px;
+  width: 50px;
+  font-size: 18px;
+  background: #fff;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.social .twitter {
+  color: #55acee;
+}
+
+.social .twitter:hover {
+  background: #55acee;
+  color: #fff;
+  cursor: pointer;
+}
+
+.social .facebook {
+  color: #0d41e1;
+}
+
+.social .facebook:hover {
+  background: #0d41e1;
+  color: #fff;
+  cursor: pointer;
+}
+
+.social .gmail {
+  color: #f40752;
+}
+
+.social .gmail:hover {
+  background: #f40752;
+  color: #fff;
+  cursor: pointer;
+}
